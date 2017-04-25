@@ -1,6 +1,6 @@
 <?php
 
-define("VERSION", "0.1.8.00010");
+define("VERSION", "0.1.8.00011");
 define("TITLE", "SpotDriver Web");
 
 define("SPOTIFY_KEY","78bed64849d944b995b022f4d49e6b69");
@@ -70,7 +70,7 @@ define("PLAYLIST_PHIL","5AvL7HH1jqwia8ewOx7hux");
 define("PLAYLIST_SIMON","1o37CSshCiuaPYoo58wfe9");
 define("PLAYLIST_CHRISTIAN","630UPES1qjaivR4cH46Vhg");
 define("PLAYLIST_CHRISTIAN_PLUS","5hDE64Xe5KEMSmtsxCHnHF");
-define("PLAYLIST_FAMILY","2jCOv7KYvy4rXbh2XUfs8G");
+define("PLAYLIST_FAMILY","0OoaBQIkFJvQdvmalmgbrU");
 define("PLAYLIST_COUPLE","6LRfNlgCSxvXPPQY6xS2Qk");
 define("PLAYLIST_OUTLAW","0o5qSvHO6mzpxmgcMTqGng");
 define("PLAYLIST_PORTLAND","4PhpkVkJietCEBSCsKF7Z0");
@@ -85,6 +85,7 @@ define("CLASSICS_GREAT_HEARTLAND","4wUvFDeDdDW9tzZ9vQQzEP");
 define("CLASSICS_CHRISTIAN","2c9s3vL1BWCtu4zLcwAdqk");
 define("CLASSICS_GREAT_CHRISTIAN","2vSWo7EDpftdU34OttzOvP"); 
 
+define("TOP_SONGS_LATIN","0sG3KiizWXCXSeXm7qRNlQ"); 
 define("TOP_SONGS_NICOLE","5mWM3KYdMOo6F0NYy3xxrs");
 define("TOP_SONGS_CHRISTIAN","3jgVVfRKMnT4ZyiW7Ja0hs");
 define("TOP_SONGS_SIMON","5FhvfwsxgGry4vhWryg3i1");
@@ -93,27 +94,5 @@ define("TOP_SONGS_HEARTLAND","5u3vupqo2EAogOPV8XQ5BK");
 define("TOP_ALBUMS_HEARTLAND","6BIBoHbBO21FoCniEeT294");
 define("TOP_ALBUMS_CHRISTIAN","2wuo93awZhIA43kN3NaEgS");
 define("TOP_ALBUMS_NICOLE","7yrgdYUVYasMoBQwX02Seu");
-
-
-/**
-	CONSTANTS FROM C# DESKTOP APP
-
-        // MAIN PLAYLISTS - FAMILY
-        public static string PLAYLIST_KIDS = "4LOqlNOgCb60D0Fhr4E0HY";
-        public static string PLAYLIST_COUPLE_PLUS_SIMON = "3IQdHaZnOL51Ippu5yLMRn";
-        public static string PLAYLIST_COUPLE_PLUS_PHIL = "5CifYYn9aL1AyPYG354Vnt";
-
-        // PLAYLISTS SOURCES
-        public static Playlist SPOTIFY_HOT_HITS_CANADA = new Playlist() { USER = "spotify_canada", ID = "4oBxQ0AN36SDuRoBXwtsXf", NAME = "Hot Hits Canada" };
-        public static Playlist SPOTIFY_HITS_REWIND = new Playlist() { USER = "spotify", ID = "4MATto5gVBtUNCq2ASrFf4", NAME = "Hits Rewind" };
-        public static Playlist SPOTIFY_TRENDING = new Playlist() { USER = "topsify", ID = "1KNl4AYfgZtOVm9KHkhPTF", NAME = "Trending" };
-        public static Playlist SPOTIFY_FRESH_FINDS = new Playlist() { USER = "spotify", ID = "3rgsDhGHZxZ9sB9DQWQfuf", NAME = "Fresh Finds" };
-        public static Playlist SPOTIFY_SEREINEMENT_ACCOUSTIQUE = new Playlist() { USER = "spotify_canada", ID = "5P6OKRC0nvjyB42tMaI8kn", NAME = "Sereinement Accoustique" };
-        public static Playlist SPOTIFY_PULSE_AMERICANA = new Playlist() { USER = "spotify", ID = "3xNptuWRxxBb4bb3PEP6rS", NAME = "Pulse of Americana" };
-        public static Playlist SPOTIFY_RED_DIRT = new Playlist() { USER = "spotify", ID = "7r3Xe4UBkkEtolAJEkvik8", NAME = "Red Dirt" };
-        public static Playlist SPOTIFY_ELECTRO_NOW = new Playlist() { USER = "spotify", ID = "1GQLlzxBxKTb6tJsD4RxHI", NAME = "electroNOW" };
-        public static Playlist SPOTIFY_BONNE_HUMEUR = new Playlist() { USER = "spotify_canada", ID = "3GgeU4bxrwZJ5cEu8IGGMk", NAME = "Bonne Humeur" };
-        public static Playlist SPOTIFY_SOUTHERN_GOTHIC = new Playlist() { USER = "spotify", ID = "6jOKJ9uMXxnGM9Bh3rujY3", NAME = "Southern Gothic" };
-*/
 
 ?>

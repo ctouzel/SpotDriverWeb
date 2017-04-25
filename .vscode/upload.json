@@ -1,0 +1,9 @@
+{
+    "host": "ftp.touzel.comssxsdda",
+    "port": 21,
+    "username": "ctouzel",
+    "password": "madelinot36",
+    "remotePath": "/public_html/dev",
+    "localPath": "C:\\Users\\rockn\\Documents\\daily\\dev",
+    "disable": false
+}
